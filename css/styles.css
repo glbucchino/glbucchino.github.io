@@ -1,0 +1,406 @@
+/* full site */
+html {
+   scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #F4F4F4;
+    color: #0F0E0E;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main-content {
+/*    min-height: 150vh;*/
+    z-index: 1;
+    background-color: #F4F4F4;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+/* header and contact links */
+
+header nav {
+    position: relative;
+    float: right;
+    padding-top: 2em;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #0F0E0E;
+    border-bottom: 1px solid #0F0E0E;
+    transition: color 0.2s;
+}
+
+a.arrow-link {
+    width: max-content;
+    display: block;
+    padding-bottom: 3px;
+    margin-right: 35px;
+    margin-bottom: 15px;
+}
+
+a.inline-link {
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: none;
+    color: #EA612E;
+}
+
+a.inline-link:hover {
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+a.arrow-link::before {
+    display: inline-block;
+    content: " ";
+    background-image:url(../images/home/arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 9.5px;
+    width: 9.5px;
+    padding-right: 15px;
+}
+
+a.arrow-link:hover::before {
+    background-image:url(../images/home/arrow_blue.svg);
+}
+
+a:hover {
+    color:#EA612E;
+    border-bottom: 1px solid #EA612E;
+}
+
+.project-div:hover {
+    color: #0F0E0E;
+}
+
+input {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    font-size: 1px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::selection {
+    background: #F4F4F4;
+}
+
+/* introduction section */
+
+
+h1 {
+    font-family: campaign, sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+
+h1 .outline {
+    color: #000;
+    -webkit-text-fill-color: #F4F4F4;
+    -webkit-text-stroke: 0.5px #000;
+    paint-order: fill stroke;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translate(0, 30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+h1, 
+nav a, 
+div.scroll-CTA {
+    animation: fade 1s ease both;
+}
+
+h1 {
+    animation-delay: 0.5s;
+}
+
+nav a {
+    animation-delay: 0.8s;
+}
+
+div.scroll-CTA {
+    animation-delay: 1.5s;
+}
+
+.intro {
+    padding-top: 30vh;
+    padding: 30vh 20px 0 20px;
+}
+
+.hero {
+    height: 100%;
+}
+
+
+/* Scroll Down CTA & Mouse Animation */
+
+.scroll-CTA {
+    opacity: 0.8;
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.hero p {
+    font-size: 14px;
+    color:#505050;
+    text-align: center;
+}
+
+.scroll {
+    width :10px;
+    height: 10px;
+    margin: auto;
+    padding-left: 5px;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.scroller {
+    border: solid #505050;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.scroller {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+/* projects section */
+
+
+.projects .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects {
+    margin-bottom: 480px;
+    padding-bottom: 6em;
+}
+
+.project {
+    position: relative;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.project-image {
+    width: 28em;
+    height: 34em;
+    background-position: center;
+    background-size: 110%;
+    transition: background-size .5s;
+}
+
+.project:hover .project-image {
+    background-size: 120%, 120%;
+}
+
+div.boston-calling {
+    background-image: url(../images/home/BostonCalling_Homepage.jpg);
+}
+
+div.greendot {
+    background-image: url(../images/home/GreenDot_Homepage.jpg);
+}
+
+div.in-the-moment {
+    background-image: url(../images/home/InTheMoment_Homepage.jpg);
+}
+
+div.altogether {
+    background-image: url(../images/home/ALTogether_Homepage.jpg);
+}
+
+.project-title {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #505050;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+
+h2 {
+    font-family: campaign, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 0.2;
+}
+
+
+/* about me section */
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+footer.about-me {
+    background-color: #0F0E0E;
+    color: #F4F4F4;
+    font-size: 1rem;
+    padding: 50px 0;
+}
+
+.about-me .container {
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.about-me img {
+    width: 330px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+.about-me .blurb {
+    width: 50%;
+    float: right;
+}
+
+.blurb h2 {
+    line-height: 0.2;
+}
+
+.blurb p {
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+.blurb a {
+    color: #EA612E;
+    border-bottom: 1px solid #EA612E;   
+}
+
+.blurb a::before {
+    background-image:url(../images/home/arrow_blue.svg);
+}
+
+
+.blurb a:hover {
+    color: #FF9972;
+    border-bottom: 1px solid #FF9972;
+}
+
+.blurb a:hover::before {
+    background-image:url(../images/home/arrow_light-blue.svg);
+}
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 1215px) {
+   
+    h1 {
+    font-size: 5.75vw;
+}
+    
+    
+}
+
+
+@media (max-width: 850px) {
+   
+h1 {
+    font-size: 7vw;
+}
+    
+    .intro {
+        padding: 30vh 40px 0 40px;
+    }
+    
+.projects {
+    margin-bottom: 750px;
+    padding-bottom: 6em;
+}
+
+.about-me img {
+    display: block;
+    width: 230px;
+    float: none;
+    margin: 0px auto;
+}
+
+.about-me .blurb {
+    width: 65%;
+    float: none;
+    margin: 0px auto;
+}
+    
+    
+}
+
+
+@media (max-width: 580px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+    
+    .intro {
+        padding: 23vh 60px 0 60px;
+    }
+}
