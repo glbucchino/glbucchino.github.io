@@ -1,7 +1,4 @@
 /* full site */
-html {
-   scroll-behavior: smooth; 
-}
 
 body {
     font-family: 'Karla', sans-serif;
@@ -17,6 +14,7 @@ body {
 /*    min-height: 150vh;*/
     z-index: 1;
     background-color: #F4F4F4;
+    width: 100%;
 }
 
 .container {
