@@ -235,7 +235,7 @@ div.scroll-CTA {
 }
 
 .project-image {
-    width: 28em;
+    max-width: 28em;
     height: 34em;
     background-position: center;
     background-size: 110%;
