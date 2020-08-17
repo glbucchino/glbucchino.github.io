@@ -360,7 +360,7 @@ footer.about-me {
 @media (max-width: 1215px) {
    
     h1 {
-    font-size: 7vw;
+    font-size: 6vw;
 }
     
     
@@ -369,9 +369,13 @@ footer.about-me {
 
 @media (max-width: 1120px) {
     
-    .intro {
+.intro {
         padding: 30vh 40px 0 40px;
     }
+    
+        h1 {
+            font-size: 5.5vw;
+}
     
 .projects .container {
     padding-bottom: 100px;
@@ -413,11 +417,11 @@ footer.about-me {
 
 @media (max-width: 580px) {
     h1 {
-        font-size: 5vh;
+        font-size: 40px;
     }
     
 .intro {
-        padding: 23vh 60px 0 60px;
+        padding: 24vh 60px 0 60px;
     }
     
     .projects .container {
