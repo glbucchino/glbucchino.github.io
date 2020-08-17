@@ -94,11 +94,12 @@ input {
     -ms-user-select: none;
     user-select: none;
     pointer-events: none;
-    font-size: 1px;
+    font-size: 16px;
 }
 
 input:focus {
-  outline: none;
+    outline: none;
+    font-size: 16px;
 }
 
 input::selection {
