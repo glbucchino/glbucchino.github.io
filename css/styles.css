@@ -1,6 +1,8 @@
 /* full site */
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
     font-style: normal;
