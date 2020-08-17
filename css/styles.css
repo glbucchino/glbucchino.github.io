@@ -30,6 +30,7 @@ header nav {
     position: relative;
     float: right;
     padding-top: 2em;
+    margin-right: -25px;
 }
 
 a {
