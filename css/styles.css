@@ -413,7 +413,7 @@ footer.about-me {
 
 @media (max-width: 580px) {
     h1 {
-        font-size: 5vw;
+        font-size: 5vh;
     }
     
 .intro {
