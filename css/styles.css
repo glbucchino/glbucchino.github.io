@@ -258,6 +258,7 @@ div.greendot {
 
 div.in-the-moment {
     background-image: url(../images/home/InTheMoment_Homepage.jpg);
+    background-position: bottom;
 }
 
 div.altogether {
@@ -281,7 +282,7 @@ h2 {
     font-size: 2.2rem;
     font-weight: 400;
     line-height: 1.2;
-    margin-top: -5px;
+    margin: -5px 0 20px 0;
 }
 
 
@@ -359,7 +360,7 @@ footer.about-me {
 @media (max-width: 1215px) {
    
     h1 {
-    font-size: 5.75vw;
+    font-size: 7vw;
 }
     
     
@@ -367,10 +368,6 @@ footer.about-me {
 
 
 @media (max-width: 1120px) {
-   
-h1 {
-    font-size: 7vw;
-}
     
     .intro {
         padding: 30vh 40px 0 40px;
@@ -391,6 +388,10 @@ h1 {
         background-size: cover;
         background-repeat: no-repeat;
     }
+    
+.project:hover .project-image {
+    background-size: cover;
+}
 
 .about-me img {
     display: block;
@@ -412,7 +413,7 @@ h1 {
 
 @media (max-width: 580px) {
     h1 {
-        font-size: 2.75rem;
+        font-size: 5vw;
     }
     
 .intro {
