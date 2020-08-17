@@ -20,7 +20,6 @@ a.home::before {
     margin-bottom: 200px;
     z-index: 1;
     background-color: #F4F4F4;
-    padding-bottom: 10px;
 }
 
 .menu-toggle {
@@ -218,7 +217,7 @@ h2.next-link:hover {
     
    .main-content {
         display: block;
-        margin-bottom: 200px;
+        margin-bottom: 250px;
         background-color: #F4F4F4;
         z-index: 1;
     }
@@ -327,7 +326,7 @@ h2.next-link:hover {
     .case-study {
         width: 90%;
         margin: 200px auto;
-        padding-left: 40px;
+        padding-left: 20px;
 }
     
     .case-study p {
