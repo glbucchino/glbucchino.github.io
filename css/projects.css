@@ -1,9 +1,10 @@
 /* project pages */
 
-body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 a.home {
