@@ -1,10 +1,13 @@
 /* project pages */
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 a.home {
