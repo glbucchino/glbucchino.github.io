@@ -257,8 +257,16 @@ div.boston-calling {
     background-image: url(../images/home/BostonCalling_Homepage.jpg);
 }
 
+div.chamfr {
+    background-image: url(../images/home/Chamfr_Homepage.jpg);
+}
+
 div.greendot {
     background-image: url(../images/home/GreenDot_Homepage.jpg);
+}
+
+div.amazon-music {
+    background-image: url(../images/home/AmazonMusic_Homepage.jpg);
 }
 
 div.in-the-moment {
