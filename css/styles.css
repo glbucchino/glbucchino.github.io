@@ -119,7 +119,6 @@ h1 {
     font-style: normal;
     font-size: 7vw;
     line-height: 1em;
-    text-align: left;
 }
 
 
@@ -432,17 +431,22 @@ footer.about-me {
 @media (max-width: 580px) {
     
     h1 {
-        font-size: 2.4rem;
+        font-size: 6.5vw;
     }
     
 .intro {
-        padding: 35vh 30px 0 30px;
+        padding: 30vh 30px 0 30px;
     }
     
     .projects .container {
         padding-bottom: 100px;
         margin: 0 auto 650px auto;
 }
+    
+.project {
+        width: 100%;
+        padding: 10px;
+    }
     
 .project-image {
         width: 100%;
