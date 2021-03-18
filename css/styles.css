@@ -161,7 +161,7 @@ div.scroll-CTA {
 }
 
 .intro {
-    padding: 25vh 50px 0 50px;
+    padding: 22vh 50px 0 50px;
 }
 
 .hero {
@@ -431,11 +431,11 @@ footer.about-me {
 @media (max-width: 580px) {
     
     h1 {
-        font-size: 6.5vw;
+        font-size: 7.5vw;
     }
     
 .intro {
-        padding: 30vh 30px 0 30px;
+        padding: 35vh 30px 0 30px;
     }
     
     .projects .container {
