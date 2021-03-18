@@ -114,18 +114,23 @@ input::selection {
 
 
 h1 {
-    font-family: campaign, sans-serif;
-    font-size: 4.5rem;
-    text-align: center;
+    font-family: degular, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+    line-height: 1em;
+    text-align: left;
 }
 
 
+/*
 h1 .outline {
     color: #000;
     -webkit-text-fill-color: #faf9f9;
     -webkit-text-stroke: 0.5px #000;
     paint-order: fill stroke;
 }
+*/
 
 @keyframes fade {
     0% {
@@ -157,8 +162,7 @@ div.scroll-CTA {
 }
 
 .intro {
-    padding-top: 30vh;
-    padding: 30vh 20px 0 20px;
+    padding: 25vh 50px 0 50px;
 }
 
 .hero {
@@ -291,9 +295,10 @@ h3 {
 }
 
 h2 {
-    font-family: campaign, sans-serif;
-    font-size: 2.2rem;
-    font-weight: 400;
+    font-family: degular, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem;
     line-height: 1.2;
     margin: -5px 0 20px 0;
 }
@@ -370,10 +375,10 @@ footer.about-me {
 
 
 /* media queries */
-@media (max-width: 1215px) {
+@media (min-width: 1500px) {
    
     h1 {
-    font-size: 6vw;
+    font-size: 100px;
 }
     
     
@@ -385,10 +390,6 @@ footer.about-me {
 .intro {
         padding: 30vh 40px 0 40px;
     }
-    
-        h1 {
-            font-size: 5.5vw;
-}
     
 .projects .container {
     padding-bottom: 100px;
@@ -429,12 +430,13 @@ footer.about-me {
 
 
 @media (max-width: 580px) {
+    
     h1 {
-        font-size: 30px;
+        font-size: 2.4rem;
     }
     
 .intro {
-        padding: 24vh 60px 0 60px;
+        padding: 35vh 30px 0 30px;
     }
     
     .projects .container {
